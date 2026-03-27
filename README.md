@@ -18,6 +18,21 @@ Current implementation focus:
    - Hausa ST2-style multi-label augmentation used for downstream ST1 training mix.
 - Weighted ensemble based on paper configuration (Table 4 style weights).
 
+## Results Snapshot
+
+Reported in paper draft:
+
+- Hausa: rank 1, Macro-F1 0.8336
+- English: Top 10, Macro-F1 0.8092
+
+### Hausa Leaderboard
+
+![Hausa Leaderboard](image/hausaLeaderboard.png)
+
+### English Leaderboard
+
+![English Leaderboard](image/englishLeaderboard.png)
+
 ## Project Structure
 
 ```text
@@ -221,9 +236,3 @@ python -m unittest discover -s tests -p "test_*.py"
 3. Missing ensemble input files
 - Verify all expected CSV files exist under `result/public/eng` or `result/public/hau`.
 
-## Results Snapshot
-
-Reported in paper draft:
-
-- Hausa: rank 1, Macro-F1 0.8336
-- English: Top 10, Macro-F1 0.8092
