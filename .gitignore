@@ -1,0 +1,45 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+
+Paper
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build/test artifacts
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Training outputs (keep ignored)
+outputs/
+
+# Keep dataset/ and result/ in git as requested
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak

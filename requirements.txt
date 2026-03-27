@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+torch
+transformers
+datasets
+peft
+bitsandbytes
+emoji
+PyYAML
+tqdm
+python-dotenv
+google-generativeai
